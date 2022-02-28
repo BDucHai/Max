@@ -104,7 +104,7 @@ html {
                /* Slide */
 #slider{
     position: relative;
-    background: url('./asset/image/nen/architect.jpg') top center / cover no-repeat;
+    background: url('/Max/asset/image/nen/architect.jpg') top center / cover no-repeat;
     padding-top:50%;
 }
 .slider-text{
