@@ -49,6 +49,7 @@ html {
 .btn:hover{
     color: #000;
     background-color: #ccc;
+    cursor:pointer;
 }
 
 /*  Main */
@@ -238,6 +239,12 @@ html {
     color:#fff;
     background-color: #000;
     font-size:16px;
+}
+.contact-submit:hover{
+    background-color: #ccc;
+    color:#000;
+    cursor: pointer;
+    border: none;
 }
 /* Modal contact */
 .modal{
