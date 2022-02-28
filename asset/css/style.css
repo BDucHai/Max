@@ -1,0 +1,339 @@
+/* reset css */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth !important;
+}
+/* Commond */
+.clear{
+    clear:both;
+}
+.row{
+    margin-left: -8px;
+    margin-right: -8px;
+}
+.col{
+    float:left;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.col-full{
+    width:100%;
+}
+.col-half{
+    width:50%;
+}
+.col-third{
+    width:33.3333%
+}
+.col-fourth{
+    width: 25%;
+}
+.mt-8{
+    margin-top: 8px;
+}
+.mt-16{
+    margin-top: 16px !important;
+}
+.mt-32{
+    margin-top: 32px !important;
+}
+.pull-right{
+    float:right;
+}
+
+.btn:hover{
+    color: #000;
+    background-color: #ccc;
+}
+
+/*  Main */
+.main{
+}
+
+#header{
+    position: fixed;
+    top:0;
+    left:0;
+    right: 0;
+    height: 54px;
+    z-index: 1;
+    background-color: #fff;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    letter-spacing: 3px;
+}
+#nav-bar {
+    background: #fff;
+    padding: 8px 0px;
+    color: #000;
+    line-height: 38px;
+}
+.nav-left-items{
+    position: absolute;
+    display:inline-block;
+    float: left;
+}
+.nav-right-items{
+    display:inline-block;
+}
+.nav-bar-item{
+    padding: 10px 30px;
+    color:#000;
+    text-decoration: none;
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+#header .mobile-menu-btn{
+    position: absolute;
+    top:0;
+    right: 0;
+    color:#000;
+    padding:16px;
+    float:right;
+    display:none;
+}
+#header .mobile-menu-btn .menu-icon{
+    font-size: 20px;
+}
+
+               /* Slide */
+#slider{
+    position: relative;
+    background: url('/asset/image/nen/architect.jpg') top center / cover no-repeat;
+    padding-top:50%;
+}
+.slider-text{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-size: 36px;
+    color: #fff;
+    font-family: "Segoe UI",Arial,sans-serif;
+    letter-spacing: 3px;
+
+}
+.slider-text > b{
+    display: inline-block;
+    background-color: #000;
+    padding: 8px 20px;
+    opacity: 0.75;
+}
+.slider-text > h4{
+    display:inline-block;
+    font-weight: 400;
+}
+
+#content{
+    padding:16px 32px;
+}
+
+                /*Projects */
+#projects{
+}
+.project-introduce{
+    padding:10px;
+    margin: 40px 0px 40px 4px;
+    border-bottom: 1px solid #f1f1f1!important;
+    font-weight: 100;
+}
+.project-option{
+    margin-right: 6px;
+}
+.item-project{
+    position: relative;
+}
+.project-img{
+    width:100%;
+    padding:8px 8px;
+    margin: 0px 8px;
+}
+.item-project > p{
+    position:absolute;
+    top:0;
+    margin:8px 16px;
+    padding: 8px 16px;
+    background-color: #000;
+    color:#fff;
+}
+
+        /*About */
+#about{
+    padding: 16px;
+}
+.introduce-about{
+    margin:10px 0px;
+    padding:16px 0px;
+    font-size:24px;
+    font-weight: 200;
+    border-bottom: 1px solid #f1f1f1;
+}
+.about-people{
+    margin-left: -10px;
+    margin-right: -26px;
+}
+.about-text{
+    font-size: 15px;
+    font-family: Verdana,sans-serif;
+    line-height: 1.5;
+    margin-right: -14px;
+}
+.about-img{
+    width:100%;
+}
+.about-des .about-name{
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+}
+.about-des .about-work{
+    margin:15px 0;
+    opacity:0.6;
+}
+.about-des .about-infor{
+    opacity:0.8;
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.about-des .about-btn{
+    width:100%;
+    padding:10px 0px;
+    font-size:15px;
+    font-family: Verdana,sans-serif;
+    border-style: none;
+}
+
+/* Contact */
+#contact{
+    padding:16px;
+}
+.contact-head{
+    padding:16px 0;
+    margin:10px 0;
+    font-size:24px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    border-bottom: 1px solid #f1f1f1;
+}
+.contact-text{
+    font-family: Verdana,sans-serif;
+    margin:15px 0;
+    font-size:15px;
+    line-height: 1.5;
+}
+.contact-fill{
+    width:100%;
+    padding:12px;
+    border: 1px solid #ccc!important;
+    font-size:15px;
+}
+.contact-submit{
+    padding: 8px;
+    color:#fff;
+    background-color: #000;
+    font-size:16px;
+}
+/* Modal contact */
+.modal{
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom:0;
+    background:rgba(0,0,0,0.4);
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+.modal.open{
+    display: flex;
+}
+.modal-container{
+    position: relative;
+    background-color: #fff;
+    width: 900px;
+}
+.modal-header{
+    background-color: #1bc24bbf;
+    height: 129px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:20px;
+}
+.modal-close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 12px;
+    font-size: 22px;
+    color: #000;
+    cursor: pointer;
+    opacity: 0.8;
+}
+.modal-close:hover{
+    background-color: #d4f600;
+    color: #e41717;
+}
+.header-ti-info{
+    font-size: 20px;margin: 5px;
+    font-size: 35px;
+    background-color: #d1ea33;
+    margin-top: -4px;
+}
+.modal-body{
+    padding:16px;
+}
+label.modal-label{
+    display: block;
+    font-size:15px;
+    margin-bottom: 15px;
+}
+.modal-input{
+    width: 100%;
+    padding: 8px;
+    font-size: 15px;
+    margin-bottom: 24px;
+}
+.contact-owner{
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #187934bf;
+}
+.modal-footer {
+    text-align: right;
+    padding: 16px;
+}
+.modal-footer  a{
+    color:#1ab1b1;
+}
+/*Map */
+.map-img{
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+
+
+/* Footer */
+
+.footer-inf{
+    background-color: #000;
+    color:#fff;
+    padding: 32px;
+    margin:-16px -32px -32px -32px;
+    text-align: center;
+}
+
+.footer-inf > a{
+    color:#fff;
+}
